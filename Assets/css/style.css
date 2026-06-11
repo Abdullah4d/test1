@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo{
+    font-size: 1.5em;
+    color: blueviolet;
+}
+header .nav{
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .nav .navbar ul{
+    list-style: none;
+}
+header .nav .navbar ul li{
+    display: inline;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.navbar li a:hover{
+    background-color: aquamarine;
+}
+h3{
+    text-align: center;
+    padding: 10px;
+    font-size: 3em;
+    font-weight: 900;
+}
+.para{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.container .card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    text-align: center;
+    column-gap: 15px;
+    row-gap: 15px;
+    
+}
+.container .card-section .card{
+    border: 1px solid white;
+    padding: 20px;
+    background-color: rgb(204, 226, 218);
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgb(230, 208, 208);
+}
+h4,p{
+    text-align: center;
+    margin: 10px 2px;
+}
+h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    font-size: 15px;
+}
+.container .card-section .card i{
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
